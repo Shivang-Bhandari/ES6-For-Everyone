@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Arrow Functions</title>
+</head>
+
+<body>
+  
+  <script>
+      const toppings = ['tomato', 'chicken', 'ham'];
+
+      // A normal function to add "Double to all toppings"
+      const doubleToppings = toppings.map(function(topping){
+        return "Double "+topping;
+      })
+      console.log(doubleToppings);
+
+      // An arrow function to replicate the above function
+      const arrowDouble = toppings.map((topping) =>{
+        return "Double "+topping;
+      })
+      console.log(arrowDouble);
+  </script>
+</body>
+
+</html>
