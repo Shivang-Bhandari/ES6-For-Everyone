@@ -48,4 +48,4 @@ const arrowDouble = toppings.map(() =>{
 ```
 
 ### NOTE : Arrow functions are always Anonymous. ALWAYS.
-[anonymous](anonymous.jpg)
+![anonymous](anonymous.jpg)
