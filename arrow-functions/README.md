@@ -56,4 +56,18 @@ const arrowDouble = toppings.map(() =>{
 
 In previous versions of JS every function scope had it's own definition of this, which was not so convinient for OOP.    
 In ECMA3/5, it was closed by assigning the value of `this` to a variable.    
-An arrow function does not create its own `this` context, so this has its original meaning from the enclosing context
+An arrow function does not create its own `this` context, so this has its original meaning from the enclosing context.
+
+
+---------------------------
+
+## When NOT to use Arrow Functions : 
+
+* When you need `this` Keyword to be bound to a function scope.  
+
+* When you need a method to bind to an Object.    
+
+* When you might need to add prototype methods.    
+
+* When you want to access `Arguments Object`.
+
