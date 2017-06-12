@@ -49,3 +49,11 @@ const arrowDouble = toppings.map(() =>{
 
 ### NOTE : Arrow functions are always Anonymous. ALWAYS.
 ![anonymous](anonymous.jpg)
+
+-------------------------
+
+## Arrow Functions and `this`
+
+In previous versions of JS every function scope had it's own definition of this, which was not so convinient for OOP.    
+In ECMA3/5, it was closed by assigning the value of `this` to a variable.    
+An arrow function does not create its own `this` context, so this has its original meaning from the enclosing context
