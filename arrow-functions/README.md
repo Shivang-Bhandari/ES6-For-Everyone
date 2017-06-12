@@ -65,6 +65,8 @@ An arrow function does not create its own `this` context, so this has its origin
 
 ## When NOT to use Arrow Functions :
 
+![dont](dont.jpg)
+
 * When you need `this` Keyword to be bound to a function scope.  
 
 * When you need a method to bind to an Object.    
