@@ -24,9 +24,9 @@ const arrowDouble = toppings.map((topping) =>{
   return "Double "+topping;
 })
 ```
-     
+
 #### Since there is a single argument being passed we can also write the above as :    
-      
+
 ``` Javascript
 const arrowDouble = toppings.map(topping =>{
   return "Double "+topping;
@@ -46,3 +46,6 @@ const arrowDouble = toppings.map(() =>{
   return " Everything Double";
 })
 ```
+
+### NOTE : Arrow functions are always Anonymous. ALWAYS.
+[anonymous](anonymous.jpg)
